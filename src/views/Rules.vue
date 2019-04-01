@@ -1,10 +1,10 @@
 <template>
-<main class='container'>
+<main class='my-container'>
   <aside class='aside'>
-    <h1 class='aside__title'>Редактор правил</h1>
+    <h5 class='aside__title bg-light'>Редактор правил</h5>
     
   </aside>
-  <div class="container__inner">
+  <div class="my-container__inner">
 
   </div>
 </main>

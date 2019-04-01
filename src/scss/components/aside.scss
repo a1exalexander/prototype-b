@@ -1,30 +1,34 @@
 .aside {
-  padding: 12px;
-  width: 260px;
-  background-color: $N6;
-  border: 2px solid $N13;
+  width: 300px;
+  // background-color: $N6;
+  // border: 2px solid $N13;
   border-radius: 2px;
   height: 100vh;
   overflow-y: auto;
   &__title {
+    padding: 10px 24px;
+    height: 46px;
     font-weight: 400;
-    margin-bottom: 18px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #dee2e6;
   }
   &__list {
     list-style: none;
+    padding: 12px;
+    padding-left: 24px;
   }
   &__item {
     margin-bottom: 4px;
   }
   &__link {
-    color: $N100;
+    // color: $N100;
     &--active {
       font-weight: 700;
     }
   }
   &__button {
-    margin-top: 6px;
-    font-style: italic;
-    font-size: $H500;
+    margin-top: 12px;
+    width: min-content;
+    white-space: nowrap;
   }
 }

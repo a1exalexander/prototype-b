@@ -1,6 +1,6 @@
-.container {
+.my-container {
   @include flex-row(stretch, stretch);
   &__inner {
-    padding: 76px 40px;
+    padding: 100px 60px;
   }
 }

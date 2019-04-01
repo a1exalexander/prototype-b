@@ -3,20 +3,20 @@
     <header
       class='card__header'
       @dblclick.self="fieldName = false">
-      <h2
+      <h5
         @dblclick="fieldName = true"
-        class='card__title'
-        v-if='!fieldName'>{{ item.name }}</h2>
+        class='card__title card-header'
+        v-if='!fieldName'>{{ item.name }}</h5>
       <input
         type="text"
-        class="card__title"
+        class="card__title form-control form-control-lg"
         v-else
         @keyup.enter="fieldName = false"
         :value='item.name'
         @input='changeStructureName([$event.target.value, item.id])'>
     </header>
-    <div class="card__body" @dblclick='fieldName = false' @dblclick.self='closeAll'>
-      <table class="card__table">
+    <div class="card-body card__body" @dblclick='fieldName = false' @dblclick.self='closeAll'>
+      <table class="table table-bordered card__table">
         <tbody>
           <tr
             class="card__table-row"
@@ -29,7 +29,7 @@
                 >{{ field.name }}
               </span>
               <input
-                class='card__input'
+                class='card__input form-control form-control-sm'
                 type="text"
                 v-else
                 @keyup.enter="toogleChange([false, item.id, field.id])"
@@ -44,7 +44,7 @@
                 @dblclick="toggleDropTypes(field.id)"
                 >тип {{ field.type }}</span>
               <select
-                class="card__select"
+                class="card__select form-control form-control-sm"
                 @change="toggleDropTypes(null)"
                 v-else
                 v-model="field.type">
@@ -59,8 +59,8 @@
         </tbody>
       </table>
       <button
-        class="card__button"
-        @click='addField(item.id)'>Добавить структуру
+        class="card__button btn btn-light"
+        @click='addField(item.id)'>Добавить поле
       </button>
     </div>
   </div>
