@@ -1,0 +1,42 @@
+.card {
+  min-width: 500px;
+  &__header {
+    background-color: $N6;
+    border: 2px solid $N13;
+    border-radius: 2px;
+    padding: 6px;
+    margin-bottom: 2px;
+    text-align: center;
+  }
+  &__title {
+    font-weight: 400;
+    font-size: $H800;
+  }
+  &__body {
+    background-color: $N6;
+    border: 2px solid $N13;
+    padding: 8px;
+    border-radius: 2px;
+  }
+  &__list {
+    list-style: none;
+    padding: 12px;
+  }
+  &__table {
+    border-spacing: 0 4px;
+  }
+  &__table-cell {
+    padding: 0 6px;
+    &--left {
+      border-right: 1px solid black;
+    }
+  }
+  &__button {
+    margin-top: 6px;
+    font-style: italic;
+    font-size: $H500;
+  }
+  &__input {
+    width: 90%;
+  }
+}

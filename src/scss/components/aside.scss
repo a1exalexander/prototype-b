@@ -1,0 +1,30 @@
+.aside {
+  padding: 12px;
+  width: 260px;
+  background-color: $N6;
+  border: 2px solid $N13;
+  border-radius: 2px;
+  height: 100vh;
+  overflow-y: auto;
+  &__title {
+    font-weight: 400;
+    margin-bottom: 18px;
+  }
+  &__list {
+    list-style: none;
+  }
+  &__item {
+    margin-bottom: 4px;
+  }
+  &__link {
+    color: $N100;
+    &--active {
+      font-weight: 700;
+    }
+  }
+  &__button {
+    margin-top: 6px;
+    font-style: italic;
+    font-size: $H500;
+  }
+}

@@ -1,0 +1,83 @@
+/* Colors */
+
+// Naturel
+$N0: white;
+$N2: #fffffe;
+$N3: #f8f8f8;
+$N3: #fbfbfb;
+$N4: #f9f9f9;
+$N5: #f2f2f2;
+$N6: #f4f4f4;
+$N7: #f1f3f3;
+$N8: #d8d8d8;
+$N9: #d0d0d0;
+$N10: #cdcdcd;
+$N11: #bbbbbb;
+$N12: #c1c1c1;
+$N13: #9b9b9b;
+$N14: #969696;
+$N15: #777777;
+$N16: #5d5d5d;
+$N17: #4a4a4a;
+$N18: #363636;
+$N19: #0a0b09;
+$N100: #000000;
+
+// Green
+$G1: #87c981;
+$G2: #50d544;
+$G3: #3fbf24;
+$G4: #26b019;
+$G5: #3db321;
+$G6: #29a026;
+
+// Blue
+$B1: #ecf0f1;
+$B2: #35a6e6;
+$B3: #4a90e2;
+$B4: #3977bf;
+$B5: #66767e;
+$B6: #3c475b;
+$B7: #1e293d;
+$B8: #263841;
+$B9: #1e293d;
+
+// Red 
+$R1: #d0021b;
+
+// Pink
+$P1: #de1a54;
+
+// Orange
+$O1: #f5a623;
+
+/* Font-family */
+$base-font: 'Avenir', Helvetica, Arial, sans-serif;
+
+/* Font-size */
+$H932: 2rem; // 32px
+$H925: 1.5625rem; // 25px
+$H924: 1.5rem; // 24px
+$H920: 1.25rem; // 20px
+$H900: 1.1875rem; // 19px
+$H800: 1.125rem; // 18px
+$H700: 1.0625rem; // 17px
+$H600: 1rem; // 16px
+$H500: 0.9375rem; // 15px
+$H400: 0.875rem; // 14px
+$H300: 0.8125rem; // 13px
+$H200: 0.75rem; // 12px
+$H100: 0.6875rem; // 11px
+$H000: 0.625rem; // 10px
+
+/* Screens */
+$screen-iphone-6: 375px;
+$screen-iphone-plus: 414px;
+$screen-tablet-small: 480px;
+$screen-tablet: 768px;
+$screen-tablet-large: 860px;
+$screen-netbook: 960px;
+$screen-desktop: 1024px;
+$screen-desktop-large: 1280px;
+$screen-hd: 1366px;
+$screen-fullhd: 1440px;

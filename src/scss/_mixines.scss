@@ -1,0 +1,21 @@
+@mixin flex-row($justify, $align) {
+  display: flex;
+  flex-direction: row;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin flex-col($justify, $align) {
+  display: flex;
+  flex-direction: column;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin text($size, $color: white, $weight: 500) {
+  font: {
+    size: $size;
+    weight: $weight;
+  }
+  color: $color;
+}

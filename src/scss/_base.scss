@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  @media screen and (min-width: $screen-desktop) {
+    scroll-behavior: smooth;
+  }
+}
+
+a,
+button {
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  font-family: $base-font;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+input {
+  outline: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+body {
+  min-height: 100vh;
+  font-family: $base-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
