@@ -1,5 +1,9 @@
 # block-p
 
+>App created using Vue.js.
+
+[Demo](https://a1exalexander.github.io/prototype-b)
+
 ## Project setup
 ```
 npm install
