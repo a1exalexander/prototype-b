@@ -1,11 +1,9 @@
 <template>
 <main class='my-container'>
   <aside class='aside'>
-    <h5 class='aside__title bg-light'>Редактор типов</h5>
-    
+    <h4 class='aside__title bg-light'>Редактор типов</h4>
   </aside>
   <div class="my-container__inner">
-
   </div>
 </main>
 </template>
